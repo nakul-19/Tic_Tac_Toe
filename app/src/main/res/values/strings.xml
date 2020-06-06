@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Tic Tac Toe</string>
+
+    <string name="SecondActivity" />
+    <string name="o">O</string>
+    <string name="x" color="#ff0000">X</string>
+    <string name="reset">RESTART</string>
+    <string name="player_1_name">player 1 name</string>
+    <string name="player_2_name">player 2 name</string>
+    <string name="start">START</string>
+    <string name="third_activity">ThirdActivity</string>
+    <string name="play_again">Play Again!</string>
+    <string name="result" tools:ignore="ExtraTranslation">click to RESET</string>
+    <string name="res">click to RESET</string>
+</resources>
