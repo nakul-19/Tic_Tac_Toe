@@ -18,10 +18,10 @@ class MainActivity : AppCompatActivity() {
         val pl2 : EditText = findViewById(R.id.player2)
         var p1 = pl1.text.toString()
         if(p1 == "")
-            p1 = "player 1"
+            p1 = "Player 1"
         var p2 = pl2.text.toString()
         if(p2 == "")
-            p2 = "player 2"
+            p2 = "Player 2"
         val intent= Intent(this,SecondActivity::class.java)
         intent.putExtra("p1", p1)
         intent.putExtra("p2",p2)
